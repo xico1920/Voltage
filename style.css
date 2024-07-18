@@ -5,3 +5,12 @@
 .krinkesDecor {
     font-family: "KrinkesDecorPERSONAL";
 }
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+.container-fluid{
+    overflow: hidden;
+}
