@@ -1,0 +1,7 @@
+@font-face {
+    font-family: "KrinkesDecorPERSONAL";
+    src: url("/fonts/krinkes/KrinkesDecorPERSONAL.ttf");
+}
+.krinkesDecor {
+    font-family: "KrinkesDecorPERSONAL";
+}
