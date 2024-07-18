@@ -14,3 +14,19 @@
 .container-fluid{
     overflow: hidden;
 }
+
+.main-image{
+    background-image: url("Images/mainscreenrender.png");
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.translucent{
+    opacity: .1;
+    background-color:black ;
+}
