@@ -39,10 +39,25 @@
 
 .dynamo{
     background-image: url("Images/model1.png");
+    object-fit: cover;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 .lumina{
-
+    background-image: url("Images/model2.png");
+    object-fit: cover;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 .lythi{
-
+    background-image: url("Images/model3.png");
+    object-fit: cover;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
