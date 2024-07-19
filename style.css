@@ -27,6 +27,7 @@
 }
 
 .translucent{
-    opacity: .1;
-    background-color:black ;
+    background: rgba(255,255,255,.075);
+    backdrop-filter: blur(8px);
 }
+
