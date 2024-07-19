@@ -33,3 +33,6 @@
     backdrop-filter: blur(8px);
 }
 
+.model{
+    height: 100vh;
+}
