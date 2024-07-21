@@ -44,6 +44,16 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    transition: 0.3s;
+}
+.dynamo:hover{
+    background-image: url("Images/0160.png");
+    object-fit: cover;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    transition: 0.3s;
 }
 .lumina{
     background-image: url("Images/model2.png");
@@ -52,6 +62,16 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    transition: 0.3s;
+}
+.lumina:hover{
+    background-image: url("Images/0160(1).png");
+    object-fit: cover;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    transition: 0.3s;
 }
 .lythi{
     background-image: url("Images/model3.png");
@@ -60,4 +80,14 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    transition: 0.3s;
+}
+.lythi:hover{
+    background-image: url("Images/0160(2).png");
+    object-fit: cover;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    transition: 0.3s;
 }
