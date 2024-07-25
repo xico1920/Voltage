@@ -29,9 +29,13 @@
 }
 
 .mainpagetitle{
-    
+    padding-bottom: 5vh;
+    padding-left: 2vh;
 }
 
+.divinfront{
+    height: 90vh;
+}
 .translucent{
     background: rgba(255,255,255,.075);
     backdrop-filter: blur(8px);
