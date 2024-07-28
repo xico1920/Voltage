@@ -171,3 +171,9 @@ footer {
 		margin-bottom: 50px;
 	}
 }
+
+
+.modelviewer{
+    width: 100%;
+    height: 100vh;
+}

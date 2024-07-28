@@ -4,73 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CarViewer Beta</title>
-    <style>
-      body {
-        width: 100vw;
-        height: 100vh;
-        margin: 0;
-        overflow: hidden;
-      }
-    </style>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/V.ico">
 </head>
 <body>
-    <script src="three.min.js"></script>
-    <script src="GLTFLoader.js"></script>
-    <script src="OrbitControls.js"></script>
-    <script>
-      let scene, camera, renderer;
-
-      function init() {
-
-        scene = new THREE.Scene();
-        scene.background = new THREE.Color(0xdddddd);
-
-        camera = new THREE.PerspectiveCamera(40,window.innerWidth/window.innerHeight,1,5000);
-        camera.rotation.y = 45/180*Math.PI;
-        camera.position.x = 800;
-        camera.position.y = 100;
-        camera.position.z = 1000;
-
-        controls = new THREE.OrbitControls(camera);
-        controls.addEventListener('change', renderer);
-
-        hlight = new THREE.AmbientLight (0x404040,100);
-        scene.add(hlight);
-
-        directionalLight = new THREE.DirectionalLight(0xffffff,100);
-        directionalLight.position.set(0,1,0);
-        directionalLight.castShadow = true;
-        scene.add(directionalLight);
-        light = new THREE.PointLight(0xc4c4c4,10);
-        light.position.set(0,300,500);
-        scene.add(light);
-        light2 = new THREE.PointLight(0xc4c4c4,10);
-        light2.position.set(500,100,0);
-        scene.add(light2);
-        light3 = new THREE.PointLight(0xc4c4c4,10);
-        light3.position.set(0,100,-500);
-        scene.add(light3);
-        light4 = new THREE.PointLight(0xc4c4c4,10);
-        light4.position.set(-500,300,500);
-        scene.add(light4);
-
-        renderer = new THREE.WebGLRenderer({antialias:true});
-        renderer.setSize(window.innerWidth,window.innerHeight);
-        document.body.appendChild(renderer.domElement);
-
-        let loader = new THREE.GLTFLoader();
-        loader.load('3D/VoltageE1.glb', function(gltf){
-          car = gltf.scene.children[0];
-          car.scale.set(0.5,0.5,0.5);
-          scene.add(gltf.scene);
-          animate();
-        });
-      }
-      function animate() {
-        renderer.render(scene,camera);
-        requestAnimationFrame(animate);
-      }
-      init();
-    </script>
+    
+    <model-viewer src="3D/VoltageE1.glb" class="modelviewer" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="neutral" poster="poster.webp" shadow-intensity="1.5" shadow-softness="1" auto-rotate camera-orbit="-1643deg 75.78deg 7.822m" field-of-view="26.26deg" min-camera-orbit="auto auto 7.822m" min-field-of-view="26.26deg">
+      <button class="Hotspot" slot="hotspot-2" data-position="0.27839195056121313m 0.7675148367839184m 0.10114250934922418m" data-normal="0.0024798505584122665m 0.25641252495773076m -0.966564259315442m" data-visibility-attribute="visible">
+          <div class="HotspotAnnotation">Handcrafted Interior</div>
+      </button><button class="Hotspot" slot="hotspot-3" data-position="0.716158222761069m 0.5046818900597084m 1.3238361640983394m" data-normal="0.4382467093815533m -0.8948842345016377m 0.08439211193386752m" data-visibility-attribute="visible">
+          <div class="HotspotAnnotation">Lighter Wheels</div>
+      </button><button class="Hotspot" slot="hotspot-4" data-position="-0.08922946106003177m 0.6093203783366561m 1.9377816456338621m" data-normal="-0.0399125807925333m -0.008809484025737776m 0.9991643402792556m" data-visibility-attribute="visible">
+          <div class="HotspotAnnotation">Half Restricted Intake</div>
+      </button><button class="Hotspot" slot="hotspot-5" data-position="-0.06650363403856342m 0.8316852135579739m -1.4796142908376604m" data-normal="-0.010362195808220316m 0.9923765091102602m -0.12280671424708844m" data-visibility-attribute="visible">
+          <div class="HotspotAnnotation">Luggage Rack</div>
+      </button>
+      <div class="progress-bar hide" slot="progress-bar">
+          <div class="update-bar"></div>
+      </div>
+      <button slot="ar-button" id="ar-button">
+          View in your space
+      </button>
+      <div id="ar-prompt">
+          <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
+      </div>
+    </model-viewer>
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.5.0/model-viewer.min.js"></script>
 </body>
 </html>
