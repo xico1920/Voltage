@@ -4,33 +4,72 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CarViewer Beta</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="images/V.ico">
 </head>
 <body>
+    <div class="container-fluid p-0 main-image2">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container col-12">
+                <a class="navbar-brand krinkesDecor fs-1 text-light" href="#">Voltage</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active text-light hovereffect" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light " href="Models.html">Models</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light " href="Prototype.html">Prototype</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light " href="OurStory.html">Our Story</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light " href="News.php">News</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light " href="Contact.php">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+        </nav>
+        
+        <model-viewer src="3D/VoltageE1.glb" class="modelviewer" ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="poster.webp" shadow-intensity="1" exposure="1.1" tone-mapping="neutral" auto-rotate camera-orbit="45deg 80deg 7.264m" field-of-view="22.98deg">
+            <button class="Hotspot" slot="hotspot-1" data-position="-0.04990893873670793m 0.5269594586675314m 1.8354130256498022m" data-normal="-0.028368344669644004m -3.620828658053489e-7m 0.9995975375222635m" data-visibility-attribute="visible">
+                <div class="HotspotAnnotation">Half Cut Grill</div>
+            </button><button class="Hotspot" slot="hotspot-2" data-position="0.24379312401721287m 0.7863156552833539m 0.11019234805472333m" data-normal="-0.4887813906567718m 0.4308753447661501m -0.7585770820557948m" data-visibility-attribute="visible">
+                <div class="HotspotAnnotation">Classic Interior</div>
+            </button><button class="Hotspot" slot="hotspot-3" data-position="-0.008416837768660743m 0.8210086582462238m -1.5671078839987838m" data-normal="-0.002856683051585949m 0.9916689321964903m -0.12878108664790694m" data-visibility-attribute="visible">
+                <div class="HotspotAnnotation">Luggage Rack</div>
+            </button><button class="Hotspot" slot="hotspot-4" data-position="0.7112134691688939m 0.320960950874198m 1.3430171355896292m" data-normal="0.9998477244636556m 0.017450727344436874m 8.816553381247373e-9m" data-visibility-attribute="visible">
+                <div class="HotspotAnnotation">Light Stainless Steel Wheels</div>
+            </button><button class="Hotspot" slot="hotspot-5" data-position="0.32290014547065626m 0.31065178081965605m -1.9129604853962872m" data-normal="0.9926302162231749m 0.11535583438392548m 0.037125265175098475m" data-visibility-attribute="visible">
+                <div class="HotspotAnnotation">Fake Exhaust for Visual Balance</div>
+            </button>
+            <div class="progress-bar hide" slot="progress-bar">
+                <div class="update-bar"></div>
+            </div>
+        
+        </model-viewer>
+    </div>
     
-    <model-viewer src="3D/VoltageE1.glb" class="modelviewer" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="neutral" poster="poster.webp" shadow-intensity="1.5" shadow-softness="1" auto-rotate camera-orbit="-1643deg 75.78deg 7.822m" field-of-view="26.26deg" min-camera-orbit="auto auto 7.822m" min-field-of-view="26.26deg">
-      
-      <button class="Hotspot" slot="hotspot-2" data-position="0.27839195056121313m 0.7675148367839184m 0.10114250934922418m" data-normal="0.0024798505584122665m 0.25641252495773076m -0.966564259315442m" data-visibility-attribute="visible">
-          <div class="HotspotAnnotation">Handcrafted Interior</div>
-      </button><button class="Hotspot" slot="hotspot-3" data-position="0.716158222761069m 0.5046818900597084m 1.3238361640983394m" data-normal="0.4382467093815533m -0.8948842345016377m 0.08439211193386752m" data-visibility-attribute="visible">
-          <div class="HotspotAnnotation">Lighter Wheels</div>
-      </button><button class="Hotspot" slot="hotspot-4" data-position="-0.08922946106003177m 0.6093203783366561m 1.9377816456338621m" data-normal="-0.0399125807925333m -0.008809484025737776m 0.9991643402792556m" data-visibility-attribute="visible">
-          <div class="HotspotAnnotation">Half Restricted Intake</div>
-      </button><button class="Hotspot" slot="hotspot-5" data-position="-0.06650363403856342m 0.8316852135579739m -1.4796142908376604m" data-normal="-0.010362195808220316m 0.9923765091102602m -0.12280671424708844m" data-visibility-attribute="visible">
-          <div class="HotspotAnnotation">Luggage Rack</div>
-      </button>
-      <div class="progress-bar hide" slot="progress-bar">
-          <div class="update-bar"></div>
-      </div>
-      <button slot="ar-button" id="ar-button">
-          View in your space
-      </button>
-      <div id="ar-prompt">
-          <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
-      </div>
-    </model-viewer>
+
     <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
     <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.5.0/model-viewer.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous">
+    </script>
 </body>
 </html>
