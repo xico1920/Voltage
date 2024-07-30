@@ -7,6 +7,7 @@
 }
 
 
+
 * {
     margin: 0;
     padding: 0;
@@ -248,5 +249,14 @@ footer {
     height: 100%;
     object-fit: cover;
     transform: translate(-50%, -50%);
-    z-index: -1; /* Ensure the video stays behind other content */
+    z-index: -1;
+}
+
+.modelbuttonfix{
+    border-radius: 50px;
+    max-height: fit-content;
+    max-width: fit-content;
+}
+.modelbuttondiv{
+    height: 85vh;
 }
