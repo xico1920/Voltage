@@ -260,3 +260,26 @@ footer {
 .modelbuttondiv{
     height: 85vh;
 }
+
+.E1studio2{
+    background-image: url("Images/E1studio2.png");
+    height: 400px;
+    background-size:     contain;            
+    background-repeat:   no-repeat;
+    background-position: center center; 
+}
+
+.E1studio3{
+    background-image: url("Images/E1studio3.png");
+    height: 400px;
+    background-size:     contain;            
+    background-repeat:   no-repeat;
+    background-position: center center; 
+}
+.dynamointerior{
+    background-image: url("images/0160.png");
+    height: 60vh; 
+    background-size: cover;
+    background-repeat:   no-repeat; 
+    background-position: center center;
+}
