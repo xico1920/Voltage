@@ -58,6 +58,7 @@
 .translucent{
     background: rgba(255,255,255,.075);
     backdrop-filter: blur(8px);
+    z-index: 1;
 }
 
 .model{
@@ -220,4 +221,15 @@ footer {
 
 .hotspot[slot="hotspot-1"]{
     --min-hotspot-opacity: 0;
+}
+
+.modelvideo{
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    z-index: -1;
 }
