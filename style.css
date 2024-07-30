@@ -15,6 +15,10 @@
 .container-fluid{
     overflow: hidden;
 }
+.nav-link{
+    padding-left: 5px;
+    padding-right: 5px;
+}
 .nav-link:hover{
     font-weight: bold;
 }
@@ -197,7 +201,7 @@ footer {
 }
 
 .logofooter{
-    
+    height: 200px;
 }
 
 .modelviewer{
