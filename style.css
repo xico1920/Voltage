@@ -283,3 +283,11 @@ footer {
     background-repeat:   no-repeat; 
     background-position: center center;
 }
+
+.dsection{
+    background-image: url("Images/screencapvolt.png");
+    height: 50vh; 
+    background-size: cover;
+    background-repeat:   no-repeat; 
+    background-position: center center;
+}
