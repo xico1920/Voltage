@@ -298,3 +298,27 @@ footer {
 .custommargin{
     margin-top: 150%;
 }
+
+.Lythi1{
+    background-image: url("Images/0241.png");
+    height: 400px;
+    background-size:     contain;            
+    background-repeat:   no-repeat;
+    background-position: center center; 
+}
+
+.Lythi2{
+    background-image: url("Images/0543.png");
+    height: 400px;
+    background-size:     contain;            
+    background-repeat:   no-repeat;
+    background-position: center center; 
+}
+
+.Lythi3{
+    background-image: url("Images/0938.png");
+    height: 400px;
+    background-size:     contain;            
+    background-repeat:   no-repeat;
+    background-position: center center; 
+}
