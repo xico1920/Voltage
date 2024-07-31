@@ -209,7 +209,10 @@ footer {
 .modelviewer{
     width: 100%;
     height: 100vh;
-    background-color: #272727;
+    background-image: url("Images/backgroundviewer.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 150%;
 }
 
 .Hotspot{
@@ -290,4 +293,8 @@ footer {
     background-size: cover;
     background-repeat:   no-repeat; 
     background-position: center center;
+}
+
+.custommargin{
+    margin-top: 150%;
 }
