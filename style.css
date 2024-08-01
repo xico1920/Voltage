@@ -48,11 +48,18 @@
     background-size: cover;
 }
 
+.main-image3{
+    background-color: #272727;
+}
+
 .mainpagetitle{
     padding-bottom: 5vh;
     padding-left: 2vh;
 }
 
+.learnabouttitle{
+    padding-top: 5vh;
+}
 .divinfront{
     height: 90vh;
 }
@@ -62,9 +69,6 @@
     z-index: 1;
 }
 
-.model{
-    height: 100vh;
-}
 
 .dynamo{
     background-image: url("Images/model1.png");
@@ -84,6 +88,17 @@
     background-size: cover;
     transition: 0.3s;
 }
+
+.dynamo:active{
+    background-image: url("Images/0160.png");
+    object-fit: cover;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    transition: 0.3s;
+}
+
 .lumina{
     background-image: url("Images/model2.png");
     object-fit: cover;
@@ -203,7 +218,8 @@ footer {
 }
 
 .logofooter{
-    height: 200px;
+    height: 100px;
+    width:auto;
 }
 
 .modelviewer{
@@ -267,7 +283,7 @@ footer {
 .E1studio2{
     background-image: url("Images/E1studio2.png");
     height: 400px;
-    background-size:     contain;            
+    background-size:     cover;                 
     background-repeat:   no-repeat;
     background-position: center center; 
 }
@@ -275,10 +291,19 @@ footer {
 .E1studio3{
     background-image: url("Images/E1studio3.png");
     height: 400px;
-    background-size:     contain;            
+    background-size:     cover;               
     background-repeat:   no-repeat;
     background-position: center center; 
 }
+
+.E1studio{
+    background-image: url("Images/E1studio3.png");
+    height: 400px;
+    background-size:     cover;               
+    background-repeat:   no-repeat;
+    background-position: center center; 
+}
+
 .dynamointerior{
     background-image: url("images/0160.png");
     height: 80vh; 
@@ -333,7 +358,7 @@ footer {
 .Lythi1{
     background-image: url("Images/0241.png");
     height: 400px;
-    background-size:     contain;            
+    background-size:     cover;                   
     background-repeat:   no-repeat;
     background-position: center center; 
 }
@@ -341,7 +366,7 @@ footer {
 .Lythi2{
     background-image: url("Images/0543.png");
     height: 400px;
-    background-size:     contain;            
+    background-size:     cover;                    
     background-repeat:   no-repeat;
     background-position: center center; 
 }
@@ -349,7 +374,7 @@ footer {
 .Lythi3{
     background-image: url("Images/0938.png");
     height: 400px;
-    background-size:     contain;            
+    background-size:     cover;                   
     background-repeat:   no-repeat;
     background-position: center center; 
 }
@@ -357,7 +382,7 @@ footer {
 .Lumina1{
     background-image: url("Images/0129.png");
     height: 400px;
-    background-size:     contain;            
+    background-size:     cover;            
     background-repeat:   no-repeat;
     background-position: center center; 
 }
@@ -365,7 +390,7 @@ footer {
 .Lumina2{
     background-image: url("Images/0209.png");
     height: 400px;
-    background-size:     contain;            
+    background-size:     cover;            
     background-repeat:   no-repeat;
     background-position: center center; 
 }
@@ -373,12 +398,20 @@ footer {
 .Lumina3{
     background-image: url("Images/0557.png");
     height: 400px;
-    background-size:     contain;            
+    background-size:     cover;            
     background-repeat:   no-repeat;
     background-position: center center; 
 }
 
-.spacer{
-    display:flex;
-    justify-content: space-between;
+
+.cst{
+    height: 100vh;
+}
+
+.maxbtn{
+    max-width: 200px;
+}
+
+.p-size{
+    font-size: 18px;
 }

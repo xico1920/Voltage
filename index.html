@@ -53,23 +53,24 @@
         
     <div class="container-fluid p-0">
         <div class="row">
-            <div class="container col-12 col-lg-4 bg-dark model dynamo spacer">
-                <div class="row  d-flex justify-content-center w-100">
+            <div class="container col-12 col-lg-4 bg-dark model dynamo d-flex justify-content-between">
+                <div class="row w-100 mx-5 cst d-flex justify-content-center">
                     <h1 class="mt-5 text-light text-center">Dynamo</h1>
-                    <button role="button"  href="Dynamo.html" class="btn btn-dark car-button">See More</button>
+                    <button role="button"  onClick="location.href='Dynamo.html'" class="btn btn-dark car-button align-self-end mb-5 maxbtn">See More</button>
+                    
                 </div>
             </div>
-            <div class="container col-12 col-lg-4 bg-light model lumina d-flex justify-content-center">
-                <div class="row">
+            <div class="container col-12 col-lg-4 bg-light lumina d-flex justify-content-between">
+                <div class="row w-100 mx-5 cst d-flex justify-content-center">
                     <h1 class="mt-5 text-light text-center">Lumina</h1>
-                    <button role="button"  href="Lumina.html" class="btn btn-dark car-button ">See More</button>
+                    <button role="button"  onClick="location.href='Lumina.html'" class="btn btn-dark car-button align-self-end mb-5 maxbtn">See More</button>
                 </div>
             </div>
                 
-            <div class="container col-12 col-lg-4 bg-dark model lythi d-flex justify-content-center">
-                <div class="row">
-                    <h1 class="mt-5 text-light text-center">Lumina</h1>
-                    <button role="button"  href="Lythi.html" class="btn btn-dark car-button ">See More</button>
+            <div class="container col-12 col-lg-4 bg-dark lythi d-flex justify-content-between">
+                <div class="row w-100 mx-5 cst d-flex justify-content-center">
+                    <h1 class="mt-5 text-light text-center">Lythi</h1>
+                    <button role="button"  onClick="location.href='Lythi.html'" class="btn btn-dark car-button align-self-end mb-5 maxbtn">See More</button>
                 </div>
             </div>
         </div>
@@ -77,8 +78,17 @@
         
     </div> 
     <div class="container-fluid p-0 learn-about-image ">
-       
-        
+        <div class="container">
+            <div class="d-flex divinfront align-items-start mt-5">
+                <div class="row">
+                    <h2 class="text-light learnabouttitle">Learn About Voltage</h2>
+                    <a type="button" href="carviewer.html" class="btn btn-light modelbuttonfix mx-1 my-2">View more <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708"/>
+                    </svg></a>
+                </div>
+               
+            </div>    
+        </div>
     </div>
     </div>
     <footer>
@@ -88,9 +98,10 @@
                     <div class="single-box">
                         <h2>Models</h2>
                     <ul>
-                        <li><a href="Dynamo.php">Dynamo</a></li>
-                        <li><a href="#">Lumina</a></li>
-                        <li><a href="#">Lythi</a></li>
+                        <li><a href="Dynamo.html">Dynamo</a></li>
+                        <li><a href="Lumina.html">Lumina</a></li>
+                        <li><a href="Lythi.html">Lythi</a></li>
+                        <li><a href="Prototype.html">Prototype</a></li>
                     </ul>
                     </div> 
                 </div>              
@@ -99,7 +110,7 @@
                         <h2>News</h2>
                     <ul>
                         <li><a href="#">Newsletter</a></li>
-                        <li><a href="#">News</a></li>
+                        <li><a href="News.php">News</a></li>
                         <li><a href="#">Events</a></li>
                     </ul>
                     </div>                    
@@ -108,7 +119,7 @@
                     <div class="single-box">
                         <h2>About</h2>
                     <ul>
-                        <li><a href="#">Our Story</a></li>
+                        <li><a href="OurStory.html">Our Story</a></li>
                     </ul>
                     </div>                    
                 </div>
@@ -116,13 +127,14 @@
                     <div class="single-box">
                         <h2>Contact</h2>
                     <ul>
-                        <li><a href="#">See Contacts</a></li>
+                        <li><a href="Contact.php">See Contacts</a></li>
                         <li><a href="#">Location</a></li>
                     </ul>
                     </div>                    
                 </div>
-                <div class="col-lg-2 d-flex footer2">
-                    <img src="images/Group 2.png" class="logofooter mx-auto p-5">
+                <div class="col-lg-2 d-flex footer2 ">
+                    
+                    <img src="images/Group 2.png" class="logofooter mx-auto mt-2">
                 </div>
             </div>
         </div>
