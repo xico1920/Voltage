@@ -287,8 +287,39 @@ footer {
     background-position: center center;
 }
 
+.luminainterior{
+    background-image: url("images/0160(1).png");
+    height: 80vh; 
+    background-size: cover;
+    background-repeat:   no-repeat; 
+    background-position: center center;
+}
+
+.Lythiinterior{
+    background-image: url("images/0160(2).png");
+    height: 80vh; 
+    background-size: cover;
+    background-repeat:   no-repeat; 
+    background-position: center center;
+}
+
 .dsection{
     background-image: url("Images/screencapvolt.png");
+    height: 50vh; 
+    background-size: cover;
+    background-repeat:   no-repeat; 
+    background-position: center center;
+}
+
+.dsection2{
+    background-image: url("Images/screncaplumina.png");
+    height: 50vh; 
+    background-size: cover;
+    background-repeat:   no-repeat; 
+    background-position: center center;
+}
+.dsection3{
+    background-image: url("Images/screencaplythi.png");
     height: 50vh; 
     background-size: cover;
     background-repeat:   no-repeat; 
@@ -317,6 +348,30 @@ footer {
 
 .Lythi3{
     background-image: url("Images/0938.png");
+    height: 400px;
+    background-size:     contain;            
+    background-repeat:   no-repeat;
+    background-position: center center; 
+}
+
+.Lumina1{
+    background-image: url("Images/0129.png");
+    height: 400px;
+    background-size:     contain;            
+    background-repeat:   no-repeat;
+    background-position: center center; 
+}
+
+.Lumina2{
+    background-image: url("Images/0209.png");
+    height: 400px;
+    background-size:     contain;            
+    background-repeat:   no-repeat;
+    background-position: center center; 
+}
+
+.Lumina3{
+    background-image: url("Images/0557.png");
     height: 400px;
     background-size:     contain;            
     background-repeat:   no-repeat;

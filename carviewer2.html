@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CarViewer Beta</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/V.ico">
+</head>
+<body>
+    <div class="container-fluid p-0 main-image2">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container col-12">
+                <a class="navbar-brand krinkesDecor fs-1 text-light" href="index.html">Voltage</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active text-light hovereffect" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light " href="Models.html">Models</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light " href="Prototype.html">Prototype</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light " href="OurStory.html">Our Story</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light " href="News.php">News</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light " href="Contact.php">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+        </nav>
+        
+        <model-viewer src="3D/VoltageE4.glb" class="modelviewer" ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="neutral" poster="poster.webp" shadow-intensity="1" camera-orbit="-692.7deg 84.49deg 8.483m" field-of-view="23.37deg" auto-rotate exposure="0.9">
+            <button class="Hotspot" slot="hotspot-2" data-position="0.12623695459321102m 0.9875555300039787m -1.5224878650881177m" data-normal="0.03932758864455694m 0.9464970664010393m -0.32030710898391135m" data-visibility-attribute="visible">
+                <div class="HotspotAnnotation">Offset Fuel Filler Cap</div>
+            </button><button class="Hotspot" slot="hotspot-3" data-position="0.6584430796858128m 0.27909722008681503m 1.0775082995471035m" data-normal="0.9956005449854366m -0.08114593017800462m -0.04684968345942453m" data-visibility-attribute="visible">
+                <div class="HotspotAnnotation">Reinforced Stainless Steel Wheels</div>
+            </button><button class="Hotspot" slot="hotspot-4" data-position="-0.7849042226279921m 0.7119734489632417m 1.9431765719050411m" data-normal="-0.04811494229146933m 0.0016959333364178588m 0.998840365693341m" data-visibility-attribute="visible">
+                <div class="HotspotAnnotation">Big Headlights</div>
+            </button><button class="Hotspot" slot="hotspot-5" data-position="0.11889694841048346m 0.7743233040372381m 0.3487019720292266m" data-normal="-0.9209609886901824m 0.3483995431946889m 0.174495316878517m" data-visibility-attribute="visible">
+                <div class="HotspotAnnotation">Timeless Interior</div>
+            </button>
+            <div class="progress-bar hide" slot="progress-bar">
+                <div class="update-bar"></div>
+            </div>
+            <button slot="ar-button" id="ar-button">
+                View in your space
+            </button>
+        </model-viewer>
+    
+
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.5.0/model-viewer.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous">
+    </script>
+</body>
+</html>
