@@ -74,6 +74,25 @@
     filter: grayscale(100%);
 }
 
+.main-image5{
+    background-color: #272727;
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+.divinfront2{
+    height: 20vh;
+}
+
+
+
 @media screen and (max-width: 992px) {
     .main-image4{
         background-image: url("Images/Prototype_render2.png");
@@ -94,12 +113,16 @@
     padding-left: 2vh;
 }
 
+
+
 .learnabouttitle{
     padding-top: 5vh;
 }
 .divinfront{
     height: 90vh;
 }
+
+
 .translucent{
     background: rgba(255,255,255,.075);
     backdrop-filter: blur(8px);
