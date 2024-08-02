@@ -63,12 +63,12 @@
                 echo 'MySQLi extension is not enabled.';
             }
             ?>
-            <div class="row d-flex justify-content-center">
+            <div class="row d-flex justify-content-center ">
                 <?php $news = getnews(4) ?>
                 <?php foreach ($news as $new) {
                 ?>
                     <div class="card m-2" style="width: 18rem;">
-                        <img src="<?php echo "news/{$new['imagem']}" ?>" class="card-img-top" alt="...">
+                        <img src="<?php echo $new['imagem'] ?>" class="card-img-top image-row" alt="...">
                         <div class="card-body">
                             <h5 class="card-title"><?php echo $new['Titulo'] ?></h5>
                             <p class="card-text"><?php echo $new['peqtexto'] ?></p>

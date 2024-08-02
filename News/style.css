@@ -548,3 +548,9 @@ footer {
     box-shadow: none;
     border: none;
 }
+
+.image-row{
+    background-size: cover;
+    background-repeat:   no-repeat; 
+    background-position: center center;
+}
