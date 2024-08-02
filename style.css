@@ -199,6 +199,40 @@
     filter: grayscale(100%);
 }
 
+.proto1{
+    background-image: url("Images/image123.png");
+    width: 100%;
+    object-fit: cover;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+.proto2{
+    background-image: url("Images/image124.png");
+    width: 100%;
+    object-fit: cover;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+.proto3{
+    background-image: url("Images/image125.png");
+    width: 100%;
+    object-fit: cover;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
 /*footer*/
 
 footer {
