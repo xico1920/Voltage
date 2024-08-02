@@ -52,7 +52,7 @@
         </nav>
         <div class="container">
             <div class="d-flex divinfront2 align-items-center justify-content-center">
-                <h1 class="text-light dafont">News</h1>
+                <h1 class="text-light dafont">News and Headlines</h1>
             </div>
         </div>
         <div class="container">
@@ -72,7 +72,6 @@
                         <div class="card-body">
                             <h5 class="card-title"><?php echo $new['Titulo'] ?></h5>
                             <p class="card-text"><?php echo $new['peqtexto'] ?></p>
-                            <a href="New.php?title=<?php echo $new['Titulo'] ?>" class="btn btn-primary">See More</a>
                         </div>
                     </div>
                 <?php
