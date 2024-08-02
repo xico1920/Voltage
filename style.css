@@ -435,6 +435,33 @@ footer {
     height: 85vh;
 }
 
+
+.modelbuttonfux{
+    border-radius: 50px;
+    max-height: fit-content;
+    max-width: fit-content;
+}
+
+.modelbuttonfax{
+    border-radius: 50px;
+    max-height: fit-content;
+    max-width: fit-content;
+}
+
+
+.modelbuttonfux:hover{
+    border-radius: 50px;
+    max-height: fit-content;
+    max-width: fit-content;
+    background-color: #ffacbe;
+}
+
+.modelbuttonfax:hover{
+    border-radius: 50px;
+    max-height: fit-content;
+    max-width: fit-content;
+    background-color: #afffac;
+}
 .E1studio2{
     background-image: url("Images/E1studio2.png");
     height: 400px;
@@ -443,6 +470,13 @@ footer {
     background-position: center center; 
 }
 
+.E2studio2{
+    background-image: url("Images/image124.png");
+    height: 200px;
+    background-size:     cover;                 
+    background-repeat:   no-repeat;
+    background-position: center top; 
+}
 .E1studio3{
     background-image: url("Images/E1studio3.png");
     height: 400px;

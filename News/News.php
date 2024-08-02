@@ -22,7 +22,7 @@
                 <div class="collapse navbar-collapse " id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
-                            <a class="nav-link active text-light hovereffect fw-bold dafont" aria-current="page" href="index.html">Home</a>
+                            <a class="nav-link active text-light hovereffect dafont" aria-current="page" href="index.html">Home</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle text-light dafont" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -41,7 +41,7 @@
                             <a class="nav-link text-light dafont" href="OurStory.html">Our Story</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-light dafont" href="News.html">News</a>
+                            <a class="nav-link text-light dafont" href="News/News.php">News</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link text-light dafont" href="Contact.html">Contact</a>
@@ -67,7 +67,7 @@
                 <?php $news = getnews(4) ?>
                 <?php foreach ($news as $new) {
                 ?>
-                    <div class="card m-2" style="width: 18rem;">
+                    <div class="card m-2 pt-2" style="width: 18rem;">
                         <img src="<?php echo $new['imagem'] ?>" class="card-img-top image-row" alt="...">
                         <div class="card-body">
                             <h5 class="card-title"><?php echo $new['Titulo'] ?></h5>
@@ -86,47 +86,47 @@
             <div class="row">
                 <div class="col-lg-2 col-sm-6">
                     <div class="single-box">
-                        <h2 class="dafont">Models</h2>
-                        <ul>
-                            <li><a href="Dynamo.html">Dynamo</a></li>
-                            <li><a href="Lumina.html">Lumina</a></li>
-                            <li><a href="Lythi.html">Lythi</a></li>
-                            <li><a href="Prototype.html">Prototype</a></li>
-                        </ul>
-                    </div>
+                        <h2>Models</h2>
+                    <ul>
+                        <li><a href="Dynamo.html">Dynamo</a></li>
+                        <li><a href="Lumina.html">Lumina</a></li>
+                        <li><a href="Lythi.html">Lythi</a></li>
+                        <li><a href="Prototype.html">GT3 Prototype</a></li>
+                    </ul>
+                    </div> 
+                </div>              
+                <div class="col-lg-2 col-sm-6">
+                    <div class="single-box">
+                        <h2>News</h2>
+                    <ul>
+                        <li><a href="News/News.php">News</a></li>
+                    </ul>
+                    </div>                    
                 </div>
                 <div class="col-lg-2 col-sm-6">
                     <div class="single-box">
-                        <h2 class="dafont">News</h2>
-                        <ul>
-                            <li><a href="Newsletter.html">Newsletter</a></li>
-                            <li><a href="News.html">News</a></li>
-                        </ul>
-                    </div>
+                        <h2>About</h2>
+                    <ul>
+                        <li><a href="OurStory.html">Our Story</a></li>
+                    </ul>
+                    </div>                    
                 </div>
                 <div class="col-lg-2 col-sm-6">
                     <div class="single-box">
-                        <h2 class="dafont">About</h2>
-                        <ul>
-                            <li><a href="OurStory.html">Our Story</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-sm-6">
-                    <div class="single-box">
-                        <h2 class="dafont">Contact</h2>
-                        <ul>
-                            <li><a href="Contact.html">See Contacts</a></li>
-                        </ul>
-                    </div>
+                        <h2>Contact</h2>
+                    <ul>
+                        <li><a href="Contact.html">See Contacts</a></li>
+                        <li><a href="https://maps.app.goo.gl/NtiWcBVVeTSigS6VA" target="_blank">Location</a></li>
+                    </ul>
+                    </div>                    
                 </div>
                 <div class="col-lg-2 d-flex footer2 ">
-
+                    
                     <img src="images/Group 2.png" class="logofooter mx-auto mt-2">
                 </div>
             </div>
         </div>
-    </footer>
+    </footer> 
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
