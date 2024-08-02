@@ -2,11 +2,20 @@
     font-family: "KrinkesDecorPERSONAL";
     src: url("/fonts/krinkes/KrinkesDecorPERSONAL.ttf");
 }
+
+@font-face {
+    font-family: "Montserrat-VariableFont_wght";
+    src: url("/fonts/krinkes/Montserrat-VariableFont_wght.ttf");
+}
 .krinkesDecor {
     font-family: "KrinkesDecorPERSONAL";
 }
 
-
+.dafont{
+    font-family: "Montserrat-VariableFont_wght", sans-serif;
+    font-weight: 500;
+    font-style: bold;
+}
 
 * {
     margin: 0;
@@ -500,4 +509,19 @@ footer {
 
 .bg-black{
     background-color: black;
+}
+
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+   
+}
+
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+    border: none;
 }
