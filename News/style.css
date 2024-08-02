@@ -1,0 +1,550 @@
+@font-face {
+    font-family: "KrinkesDecorPERSONAL";
+    src: url("/fonts/krinkes/KrinkesDecorPERSONAL.ttf");
+}
+
+@font-face {
+    font-family: "Montserrat-VariableFont_wght";
+    src: url("/fonts/krinkes/Montserrat-VariableFont_wght.ttf");
+}
+.krinkesDecor {
+    font-family: "KrinkesDecorPERSONAL";
+}
+
+.dafont{
+    font-family: "Montserrat-VariableFont_wght", sans-serif;
+    font-weight: 500;
+    font-style: bold;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+.container-fluid{
+    overflow: hidden;
+}
+.nav-link{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.nav-link:hover{
+    font-weight: bold;
+}
+
+.main-image{
+    background-image: url("Images/mainscreenrender.png");
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+.main-image2{
+    background-color: #272727;
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.main-image3{
+    background-color: #272727;
+}
+
+.main-image4{
+    background-image: url("Images/Prototype_render2.png");
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+.main-image5{
+    background-color: #272727;
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+.divinfront2{
+    height: 20vh;
+}
+
+
+
+@media screen and (max-width: 992px) {
+    .main-image4{
+        background-image: url("Images/Prototype_render2.png");
+        height: 100vh;
+        width: 100%;
+        object-fit: cover;
+        margin: auto;
+        background-repeat: no-repeat;
+        background-position: 20% 50%;
+        background-size: cover;
+        -webkit-filter: grayscale(100%);
+        filter: grayscale(100%);
+    }
+  }
+
+.mainpagetitle{
+    padding-bottom: 5vh;
+    padding-left: 2vh;
+}
+
+
+
+.learnabouttitle{
+    padding-top: 5vh;
+}
+.divinfront{
+    height: 90vh;
+}
+
+
+.translucent{
+    background: rgba(255,255,255,.075);
+    backdrop-filter: blur(8px);
+    z-index: 1;
+}
+
+.translucent{
+    background: rgba(255,255,255,.075);
+    backdrop-filter: blur(8px);
+    z-index: 1;
+}
+
+.translucent2{
+    background: black;
+    backdrop-filter: blur(8px);
+    z-index: 1;
+}
+
+
+.dynamo{
+    background-image: url("Images/model1.png");
+    object-fit: cover;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    transition: 0.3s;
+}
+.dynamo:hover{
+    background-image: url("Images/0160.png");
+    object-fit: cover;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    transition: 0.3s;
+}
+
+.dynamo:active{
+    background-image: url("Images/0160.png");
+    object-fit: cover;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    transition: 0.3s;
+}
+
+.lumina{
+    background-image: url("Images/model2.png");
+    object-fit: cover;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    transition: 0.3s;
+}
+.lumina:hover{
+    background-image: url("Images/0160(1).png");
+    object-fit: cover;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    transition: 0.3s;
+}
+.lythi{
+    background-image: url("Images/model3.png");
+    object-fit: cover;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    transition: 0.3s;
+}
+.lythi:hover{
+    background-image: url("Images/0160(2).png");
+    object-fit: cover;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    transition: 0.3s;
+}
+.car-button{
+   height: 50px;
+   font-weight: 500; 
+   position: relative;
+}
+
+.car-button:hover{
+    height: 50px;
+    font-weight: bold; 
+ }
+
+.learn-about-image{
+    background-image: url("Images/image\ 9.png");
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+.proto1{
+    background-image: url("Images/image123.png");
+    width: 100%;
+    object-fit: cover;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+.proto2{
+    background-image: url("Images/image124.png");
+    width: 100%;
+    object-fit: cover;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+.proto3{
+    background-image: url("Images/image125.png");
+    width: 100%;
+    object-fit: cover;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+/*footer*/
+
+footer {
+	background:  #272727;
+	padding: 86px 0;
+}
+.single-content {
+	text-align: center;
+	padding: 115px 0;
+}
+.single-box p {
+	color: #fff;
+	line-height: 1.9;
+}
+.single-box h3 {
+	font-size: 16px;
+	font-weight: 700;
+	color: #fff;
+}
+.single-box .card-area i {
+	color: #ffffff;
+	font-size: 20px;
+	margin-right: 10px;
+}
+.single-box ul {
+	list-style: none;
+	padding: 0;
+}
+.single-box ul li a {
+	text-decoration: none;
+	color: #fff;
+	line-height: 2.5;
+	font-weight: 100;
+}
+.single-box h2 {
+	color: #fff;
+	font-size: 20px;
+	font-weight: 700;
+}
+#basic-addon2 {
+	background: #fe1e4f;
+	color: #fff;
+}
+.socials i {
+	font-size: 18px;
+	margin-right: 15px;
+}
+@media (max-width: 767px) {
+	.single-box {
+		margin-bottom: 50px;
+	}
+}
+@media (min-width: 768px) and (max-width: 991px) {
+	.single-box {
+		margin-bottom: 50px;
+	}
+}
+
+.logofooter{
+    height: 100px;
+    width:auto;
+}
+
+.modelviewer{
+    width: 100%;
+    height: 100vh;
+    background-image: url("Images/backgroundviewer.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 150%;
+}
+
+.Hotspot{
+    border-radius: 4px;
+    font-size: medium;
+    font-weight: 700;
+    position: absolute;
+    padding: 0.5em 1em;
+}
+
+.hotspot[slot="hotspot-1"]{
+    --min-hotspot-opacity: 0;
+}
+
+.modelvideo{
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    z-index: -1;
+}
+
+.video-container {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#bg-video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
+
+.modelbuttonfix{
+    border-radius: 50px;
+    max-height: fit-content;
+    max-width: fit-content;
+}
+.modelbuttondiv{
+    height: 85vh;
+}
+
+.E1studio2{
+    background-image: url("Images/E1studio2.png");
+    height: 400px;
+    background-size:     cover;                 
+    background-repeat:   no-repeat;
+    background-position: center center; 
+}
+
+.E1studio3{
+    background-image: url("Images/E1studio3.png");
+    height: 400px;
+    background-size:     cover;               
+    background-repeat:   no-repeat;
+    background-position: center center; 
+}
+
+.E1studio{
+    background-image: url("Images/E1studio3.png");
+    height: 400px;
+    background-size:     cover;               
+    background-repeat:   no-repeat;
+    background-position: center center; 
+}
+
+.dynamointerior{
+    background-image: url("images/0160.png");
+    height: 80vh; 
+    background-size: cover;
+    background-repeat:   no-repeat; 
+    background-position: center center;
+}
+
+.luminainterior{
+    background-image: url("images/0160(1).png");
+    height: 80vh; 
+    background-size: cover;
+    background-repeat:   no-repeat; 
+    background-position: center center;
+}
+
+.Lythiinterior{
+    background-image: url("images/0160(2).png");
+    height: 80vh; 
+    background-size: cover;
+    background-repeat:   no-repeat; 
+    background-position: center center;
+}
+
+.dsection{
+    background-image: url("Images/screencapvolt.png");
+    height: 50vh; 
+    background-size: cover;
+    background-repeat:   no-repeat; 
+    background-position: center center;
+}
+
+.dsection2{
+    background-image: url("Images/screncaplumina.png");
+    height: 50vh; 
+    background-size: cover;
+    background-repeat:   no-repeat; 
+    background-position: center center;
+}
+.dsection3{
+    background-image: url("Images/screencaplythi.png");
+    height: 50vh; 
+    background-size: cover;
+    background-repeat:   no-repeat; 
+    background-position: center center;
+}
+
+.custommargin{
+    margin-top: 150%;
+}
+
+.Lythi1{
+    background-image: url("Images/0241.png");
+    height: 400px;
+    background-size:     cover;                   
+    background-repeat:   no-repeat;
+    background-position: center center; 
+}
+
+.Lythi2{
+    background-image: url("Images/0543.png");
+    height: 400px;
+    background-size:     cover;                    
+    background-repeat:   no-repeat;
+    background-position: center center; 
+}
+
+.Lythi3{
+    background-image: url("Images/0938.png");
+    height: 400px;
+    background-size:     cover;                   
+    background-repeat:   no-repeat;
+    background-position: center center; 
+}
+
+.Lumina1{
+    background-image: url("Images/0129.png");
+    height: 400px;
+    background-size:     cover;            
+    background-repeat:   no-repeat;
+    background-position: center center; 
+}
+
+.Lumina2{
+    background-image: url("Images/0209.png");
+    height: 400px;
+    background-size:     cover;            
+    background-repeat:   no-repeat;
+    background-position: center center; 
+}
+
+.Lumina3{
+    background-image: url("Images/0557.png");
+    height: 400px;
+    background-size:     cover;            
+    background-repeat:   no-repeat;
+    background-position: center center; 
+}
+
+
+.cst{
+    height: 100vh;
+}
+
+.maxbtn{
+    max-width: 200px;
+}
+
+.p-size{
+    font-size: 18px;
+}
+
+.protoimage{
+    background-image: url("images/Prototype_render4.png");
+    height: 80vh; 
+    background-size: cover;
+    background-repeat:   no-repeat; 
+    background-position: center center;
+}
+
+.bg-black{
+    background-color: black;
+}
+
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+   
+}
+
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+    border: none;
+}
