@@ -493,6 +493,14 @@ footer {
     background-position: center center; 
 }
 
+.E1studio4{
+    background-image: url("Images/E1studio4.png");
+    height: 400px;
+    background-size:     cover;               
+    background-repeat:   no-repeat;
+    background-position: center center; 
+}
+
 .dynamointerior{
     background-image: url("images/0160.png");
     height: 80vh; 
